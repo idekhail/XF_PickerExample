@@ -13,9 +13,10 @@ namespace XF_PickerExample
 
             //MainPage = new MainPage();
 
-            MainPage = new PickerPage();
+            //MainPage = new PickerPage();
 
-            
+            MainPage = new WebViewPage();
+
         }
 
         protected override void OnStart()
