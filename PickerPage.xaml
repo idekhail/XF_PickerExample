@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_PickerExample.PickerPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Picker"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                   FontSize="Large"/>
+
+            <Picker Title="---Select---"
+                    x:Name="pickerZone"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="pickerZone_SelectedIndexChanged">
+               
+            </Picker>
+            <Picker Title="---Select---"
+                    x:Name="pickerCity"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="pickerCity_SelectedIndexChanged">
+            </Picker>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
