@@ -10,11 +10,14 @@
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
             <StackLayout Orientation="Vertical">
 
-                <Button Text="PickerPage" x:Name="_PickerPage"  />
-                <Button Text="DatePickerPage" x:Name="_DatePickerPage"  />
+                <Button Text="Picker Page" x:Name="_PickerPage"  />
+                <Button Text="Date Picker Page" x:Name="_DatePickerPage"  />
             </StackLayout>
             <StackLayout Orientation="Vertical">
-                <Button Text="WebViewPage" x:Name="_WebViewPage"  />
+                <Button Text="WebView Page" x:Name="_WebViewPage"  />
+                <Button Text="Tabbed Page" x:Name="_TabbedPage"  />
+                <Button Text="Media Picker" x:Name="_MediaPicker"  />
+
             </StackLayout>
         </StackLayout>
     </StackLayout>

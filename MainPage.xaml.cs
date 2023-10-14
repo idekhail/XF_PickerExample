@@ -18,6 +18,8 @@ namespace XF_PickerExample
             _PickerPage.Clicked += (s, e) => Navigation.PushAsync(new PickerPage());
             _DatePickerPage.Clicked += (s, e) => Navigation.PushAsync(new DatePickerPage());
             _WebViewPage.Clicked += (s, e) => Navigation.PushAsync(new WebViewPage());
+            _TabbedPage.Clicked += (s, e) => Navigation.PushAsync(new TabbedPage1());
+            _MediaPicker.Clicked += (s, e) => Navigation.PushAsync(new MediaPickerPage());
         }
     }
 }
